@@ -1,0 +1,27 @@
+{
+    "name": "nosignalav-docs",
+    "version": "1.0.0",
+    "description": "Documentation for NoSignalAV projects",
+    "main": "index.js",
+    "scripts": {
+        "build-docs": "static-site-generator build",
+        "serve-docs": "static-site-generator serve"
+    },
+    "keywords": [
+        "docs",
+        "documentation"
+    ],
+    "author": "NoSignalAV",
+    "license": "MIT",
+    "devDependencies": {
+        "static-site-generator": "^2.5.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NoSignalAV/NoSignalAV-Docs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NoSignalAV/NoSignalAV-Docs/issues"
+    },
+    "homepage": "https://github.com/NoSignalAV/NoSignalAV-Docs#readme"
+}
